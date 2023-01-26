@@ -38,6 +38,7 @@ terraform apply -var-file=envs/master/ca-central-1/terraform.tfvars -var-file=en
 
 | Name | Source | Version |
 |------|--------|---------|
+| <a name="module_dynamodb_table"></a> [dynamodb\_table](#module\_dynamodb\_table) | terraform-aws-modules/dynamodb-table/aws | 3.1.2 |
 | <a name="module_s3_backend"></a> [s3\_backend](#module\_s3\_backend) | terraform-aws-modules/s3-bucket/aws | 3.6.1 |
 
 ## Resources
@@ -46,6 +47,7 @@ terraform apply -var-file=envs/master/ca-central-1/terraform.tfvars -var-file=en
 |------|------|
 | [aws_iam_openid_connect_provider.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_openid_connect_provider) | resource |
 | [aws_iam_role.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role) | resource |
+| [aws_iam_role_policy_attachment.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role_policy_attachment) | resource |
 | [aws_caller_identity.current](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/caller_identity) | data source |
 | [aws_default_tags.current](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/default_tags) | data source |
 | [aws_iam_policy_document.github](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/iam_policy_document) | data source |
