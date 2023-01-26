@@ -14,10 +14,10 @@ Note : If you're using the existing terraform workspace, make sure to switch the
 terraform init
 
 #Terraform Plan
-terraform plan -var-file=envs/master/ca-central-1/terraform.tfvars -var-file=envs/master/global/terraform.tfvars
+terraform plan -var-file=envs/master/us-east-1/terraform.tfvars -var-file=envs/master/global/terraform.tfvars
 
 #Terraform Apply
-terraform apply -var-file=envs/master/ca-central-1/terraform.tfvars -var-file=envs/master/global/terraform.tfvars --auto-approve
+terraform apply -var-file=envs/master/us-east-1/terraform.tfvars -var-file=envs/master/global/terraform.tfvars --auto-approve
 ```
 
 <!-- BEGIN_TF_DOCS -->
